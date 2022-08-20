@@ -20,6 +20,7 @@ h4{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 body{
     -webkit-font-smoothing: antialiased;
@@ -35,8 +36,8 @@ body{
     color: black;
 }
 .content{
-    width: 400px;
-    height: 500px;
+    max-width: 400px;
+    max-height: 500px;
     background-color: rgb(255, 255, 255);
     border-radius: 0 0 15px 15px;
     box-shadow: 0 1em 1em rgba(0,0,0,0.1);
@@ -79,7 +80,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
