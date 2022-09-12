@@ -36,7 +36,7 @@ body{
     color: black;
 }
 .content{
-    max-width: 400px;
+    width: 400px;
     max-height: 500px;
     background-color: rgb(255, 255, 255);
     border-radius: 0 0 15px 15px;
